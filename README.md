@@ -6,7 +6,7 @@ Um ofuscador de executavel escrito em Python3
 #### instalar dependencias:
 
 ```
-pip3 install cryptography pyinstaller
+pip3 install cryptography pyinstaller psutil
 ```
 
 #### Forma de usar
@@ -14,10 +14,8 @@ pip3 install cryptography pyinstaller
 ```
 python3 main.py <arquivo.exe> <novo_arquivo.py>
 ```
-A saida resultara em um novo arquivo.py que devera ser devidamente compilado com pyinstaller
-```
-pyinstaller --onefile [parametros que desejar] <novo_arquivo.py>
-```
+A saida resultara em um novo arquivo.py junto a um arquivo executavel já empacotado
+
 <hr>
 
 ### EXEMPLO PRATICO
